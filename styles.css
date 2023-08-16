@@ -1,0 +1,157 @@
+div {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* .navbar {
+    background-color: #F0F0F0;
+} */
+
+.back-image {
+    width: 100%;
+    height: 100%;
+    clip: rect(100px, 260px, 190px, 130px);
+}
+
+.main-heading {
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 5px;
+    font-size: 80px;
+    padding-bottom: 2%;
+}
+
+.text-over-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-90%, -20%);
+    text-align: left;
+    color: white;
+}
+
+.about-me {
+    background-color: #F0F0F0;
+    padding: 6% 0 6% 0;
+}
+
+.about-me-heading {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.about-me-image {
+    width: 100%;
+    padding-left: 10%;
+    padding-top: 3%;
+}
+
+.about-me-info {
+    margin-left: 5%;
+    line-height: 30px; 
+    text-align: justify
+}
+
+.education {
+    padding: 2%;
+}
+
+.education-heading, .experience-heading, .honours-and-awards-heading, .skill-and-experience-heading{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    margin: 3% 3% 4% 3%;
+}
+
+.card {
+    margin: 2%;
+}
+
+.card-title {
+    font-size: x-large;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.honours-and-awards-heading {
+    margin-top: 2%;
+}
+
+.honours-and-awards {
+    background-color: #F0F0F0;
+    padding: 4% 4% 8% 4%;
+
+}
+
+.download-resume {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2%;
+    margin: 6% 10% 9% 10%;
+}
+
+.skill-and-experience-heading {
+    margin: 6%;
+}
+
+.skills-column, .experience-column{
+    margin: 4% 0 4% 0;
+}
+
+.info {
+    padding: 1%;
+}
+
+.skill-bar .info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-bar .bar {
+    width: 100%;
+    height: 10px;
+    background-color: #F0F0F0;
+    position: relative;
+    border-radius: 25px;
+}
+
+.skill-bar .bar span {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    border-radius: 25px;
+}
+
+.skill-bar .bar .html {
+    width: 90%;
+}
+
+.skill-bar .bar .css {
+    width: 65%;
+}
+
+.skill-bar .bar .javascript {
+    width: 65%;
+}
+
+.skill-bar .bar .c-and-cpp {
+    width: 60%;
+}
+
+.skill-bar .bar .python {
+    width: 60%;
+}
+
+.footer {
+    padding: 4%;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.icon-link {
+    margin: 1%;
+    color: white;
+}
